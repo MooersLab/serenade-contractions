@@ -7,26 +7,22 @@
 
 ## Purpose
 Expand English contractions automatically when using Serenade for dictation.
-This supports the conversion of informal speech into formal prose.
+This supports the conversion of informal speech into formal prose, which is required in scientific publications.
 
 ## Disclaimer
-This is a programming tool, not an educational tool.
+This is a programming and writing tool, not an educational tool.
 
 
 ## Serenade
-Serenade is a free, automated speech recognition software application for speech-to-commands and speech-to-code.
-It has a dictation mode that you can invoke; the word error rate is relatively low.
-It is low enough to consider it as an alternative to other automated speech-recognition software
-It's a standalone application, but it requires access to the Internet because it utilizes one of three remote servers.
+[Serenade](https://github.com/serenadeai/serenade) is a free, automated speech recognition software application for speech-to-commands and speech-to-code.
+Serenade also has a dictation mode that you can invoke; the word error rate is relatively low.
+It is low enough to consider it as an alternative to other automated speech-recognition software.
+
+Serenade is a standalone application, but it requires access to the Internet because it utilizes one of three remote servers.
 It has built-in support for working with almost 20 computer programming languages.
 Serenade works whereever you can place a mouse cursor on your computer. 
 It is not limited to the web browser, like Voice In Plus.
-It has an active community on Discord.
-
-
-
-
-
+Serenade has an active community on Discord.
 
 
 ## Library contents
