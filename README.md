@@ -14,11 +14,18 @@ This is a programming tool, not an educational tool.
 
 
 ## Serenade
-Serenade is a free., automated speech recognition software application for speech-to-commands and speech-to-code.
-It's a standalone application, but it requires access to the Internet because it utilizes a remote server.
-It has built-in support for working with almost 20 computer programming languages
-It works whereever you can place a Cursor on your computer. 
-It is not limited to the web browser.
+Serenade is a free, automated speech recognition software application for speech-to-commands and speech-to-code.
+It has a dictation mode that you can invoke; the word error rate is relatively low.
+It is low enough to consider it as an alternative to other automated speech-recognition software
+It's a standalone application, but it requires access to the Internet because it utilizes one of three remote servers.
+It has built-in support for working with almost 20 computer programming languages.
+Serenade works whereever you can place a mouse cursor on your computer. 
+It is not limited to the web browser, like Voice In Plus.
+It has an active community on Discord.
+
+
+
+
 
 
 
