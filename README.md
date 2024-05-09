@@ -1,6 +1,6 @@
 # Automated Expansions of English Contractions For Serenade
 
-![Version](https://img.shields.io/static/v1?label=serenade-contractions&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=serenade-contractions&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Expansions of English contractions for Serenade
@@ -26,11 +26,18 @@ It is not limited to the web browser.
 186 common and not-so-common English contractions mapped to their expansions.
 
 ## Format of the library
-The file format is JSON file with 186 methods.
-The contraction is the first argument; the expansion is the second argument.
+The file `contractions.js` has 186 text replacements.
+The contraction is the first argument; the expansion is the second argument of the method `pronounce()`, which is broken currently.
+Developers are working on it.
+
+Use instead `words.json`.
+Copy to 
 
 ## Installation
-Copy the file's contents and paste them into the bottom of the custom.js file located in `~/.serenade/scripts/custom.js.`
+Check if your words.json file exists already. If not, copy `words.json` to `~/.serenade/words.json`. Note that is **NOT** copied to `~/.serenade/scripts/words.json`.
+
+
+When it is working again, copy the contractions.js file's contents and paste them into the bottom of the custom.js file located in `~/.serenade/scripts/custom.js.`
 
 ## Related sites
 - [Voice computing on MooersLab landing page](https://github.com/MooersLab/#voice-computing)
@@ -39,7 +46,8 @@ Copy the file's contents and paste them into the bottom of the custom.js file lo
 
 |Version      | Changes                             | Date            |
 |:-----------:|:-----------------------------------:|:---------------:|
-| Version 0.1 | Expanded to 186 contractions.       | 2024 May 9    |
+| Version 0.1 | Initiated and added 186 contractions.       | 2024 May 9    |
+| Version 0.2 | Added words.json.                   | 2024 May 9    |
 
 
 ## Funding sources
