@@ -33,14 +33,15 @@ The file `contractions.js` has 186 text replacements.
 The contraction is the first argument; the expansion is the second argument of the method `pronounce()`, which is broken currently.
 Developers are working on it.
 
-Use instead `words.json`.
-Copy to 
 
 ## Installation
-Check if your words.json file exists already. If not, copy `words.json` to `~/.serenade/words.json`. Note that is **NOT** copied to `~/.serenade/scripts/words.json`.
+Check if your `words.json` file exists already. If not, copy `words.json` to `~/.serenade/words.json`. Note that the file is **NOT** copied to `~/.serenade/scripts/words.json`.
+You will have to restart Serenade for it to read the contents of the new `words.json` file.
 
+When it is working again, copy the `contractions.js` file's contents and paste them into the bottom of the `custom.js` file located in `~/.serenade/scripts/custom.js.` 
+Changes to `custom.js` and any other file stored in the `scripts` subdirectory are picked up automatically by Serenade such that a restart of serenade is not required.
+It May be sufficient to just place `contractions.js` in the scripts subdirectory.
 
-When it is working again, copy the contractions.js file's contents and paste them into the bottom of the custom.js file located in `~/.serenade/scripts/custom.js.`
 
 ## Related sites
 - [Voice computing on MooersLab landing page](https://github.com/MooersLab/#voice-computing)
