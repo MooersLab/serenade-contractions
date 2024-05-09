@@ -14,23 +14,23 @@ This is a programming tool, not an educational tool.
 
 
 ## Serenade
-Serenade is a free., automated speech recognition softare application for speech-to-commands and speech-to-code.
+Serenade is a free., automated speech recognition software application for speech-to-commands and speech-to-code.
 It's a standalone application, but it requires access to the Internet because it utilizes a remote server.
-It has built-in support for working with almost 20 compouter programming languages
+It has built-in support for working with almost 20 computer programming languages
 It works whereever you can place a Cursor on your computer. 
 It is not limited to the web browser.
 
 
 
 ## Library contents
-186 common and not so common English contractions mapped to their expansions.
+186 common and not-so-common English contractions mapped to their expansions.
 
 ## Format of the library
 The file format is JSON file with 186 methods.
 The contraction is the first argument; the expansion is the second argument.
 
 ## Installation
-Copy the contents of the file and paste into the bottom of the custom.js file located in `.serenade/scripts/custom.js`.
+Copy the file's contents and paste them into the bottom of the custom.js file located in `~/.serenade/scripts/custom.js.`
 
 ## Related sites
 - [Voice computing on MooersLab landing page](https://github.com/MooersLab/#voice-computing)
